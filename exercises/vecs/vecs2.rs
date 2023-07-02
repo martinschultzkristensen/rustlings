@@ -7,7 +7,6 @@
 //
 // Execute `rustlings hint vecs2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
     for element in v.iter_mut() {
@@ -17,6 +16,8 @@ fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
     }
 
     // At this point, `v` should be equal to [4, 8, 12, 16, 20].
+    println!("Resultatet af v: {:?}", v);
+
     v
 }
 
